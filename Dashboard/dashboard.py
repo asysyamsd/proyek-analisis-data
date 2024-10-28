@@ -77,7 +77,7 @@ max_date = all_dataset_df["order_purchase_timestamp"].max()
  
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("https://raw.githubusercontent.com/dicodingacademy/assets/main/logo.png")
+    st.image("sems_shop_logo.png")
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
