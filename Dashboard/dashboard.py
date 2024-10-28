@@ -60,7 +60,7 @@ def create_rfm_df(df):
     return rfm_df
 
 # Load berkas all_data.csv
-all_dataset_df = pd.read_csv("all_dataset.csv")
+all_dataset_df = pd.read_csv("Dashboard/all_dataset.csv")
 
 # Mengurutkan dataframe berdasarkan order_date dan dan kedua kolom tersebut bertipe numeric
 datetime_columns = ["order_purchase_timestamp", "order_delivered_carrier_date"]
